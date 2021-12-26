@@ -81,8 +81,8 @@
           "required": false
       },
        "MY_PASS": {
-          "description": "Default value is None",
-          "value": "True",
+          "description": "Leave empty if dont need password else enter Your Password",
+          "value": "",
           "required": false
       },
       "BIND_ADRESS": {
