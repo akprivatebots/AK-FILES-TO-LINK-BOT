@@ -47,7 +47,7 @@ async def login_handler(c: Client, m: Message):
 async def private_receive_handler(c: Client, m: Message):
     check_pass = await pass_db.get_user_pass(m.chat.id)
     if check_pass== None:
-        await m.reply_text("Login first using /login cmd \n don\'t know the pass? request it from @adarshgoelz")
+        await m.reply_text("Login first using /login cmd \n don\'t know the pass? request it from @ak_nh4")
         return
     if check_pass != MY_PASS:
         await pass_db.delete_user(m.chat.id)
@@ -64,7 +64,7 @@ async def private_receive_handler(c: Client, m: Message):
             if user.status == "kicked":
                 await c.send_message(
                     chat_id=m.chat.id,
-                    text="__Sᴏʀʀʏ Sɪʀ, Yᴏᴜ ᴀʀᴇ Bᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴍᴇ.__\n\n  **Cᴏɴᴛᴀᴄᴛ Dᴇᴠᴇʟᴏᴘᴇʀ @adarshgoelz ʜᴇ Wɪʟʟ Hᴇʟᴘ Yᴏᴜ**",
+                    text="__Sᴏʀʀʏ Sɪʀ, Yᴏᴜ ᴀʀᴇ Bᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴍᴇ.__\n\n  **Cᴏɴᴛᴀᴄᴛ Dᴇᴠᴇʟᴏᴘᴇʀ @ak_nh4 ʜᴇ Wɪʟʟ Hᴇʟᴘ Yᴏᴜ**",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -87,7 +87,7 @@ async def private_receive_handler(c: Client, m: Message):
             await m.reply_text(e)
             await c.send_message(
                 chat_id=m.chat.id,
-                text="**Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍʏ ʙᴏss** @adarshgoelz",
+                text="**Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍʏ ʙᴏss** @ak_nh4",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
@@ -155,7 +155,7 @@ async def private_receive_handler(c: Client, m: Message):
 async def channel_receive_handler(bot, broadcast):
     check_pass = await pass_db.get_user_pass(broadcast.chat.id)
     if check_pass == None:
-        await broadcast.reply_text("Login first using /login cmd \n don\'t know the pass? request it from @adarshgoelz")
+        await broadcast.reply_text("Login first using /login cmd \n don\'t know the pass? request it from @ak_nh4")
         return
     if check_pass != MY_PASS:
         await broadcast.reply_text("Wrong password, login again")
