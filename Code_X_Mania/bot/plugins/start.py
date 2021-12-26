@@ -144,8 +144,7 @@ Send me any file and get a direct highspeed download link and streamable link.!"
                                 InlineKeyboardButton("🤖 Join Updates Channel", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
                             ],
                             [
-                                InlineKeyboardButton("🔄 Refresh / Try Again",
-                                                     url=f"https://t.me/{Var.APP_NAME}.herokuapp.com/{usr_cmd}") # Chnage ur app name
+                                InlineKeyboardButton("🔄 Refresh / Try Again", url=f"https://t.me/{Var.APP_NAME}.herokuapp.com/{usr_cmd}") # Chnage ur app name
                             ]
                         ]
                     ),
@@ -265,7 +264,7 @@ async def help_handler(bot, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("💁‍♂️ DEV", url="https://t.me/ak_nh4")],
-                [InlineKeyboardButton("💥 LEECH Grp", url="https://t.me/AKLEECHZONE")]
+                [InlineKeyboardButton("💥 OUR LEECH GROUP", url="https://t.me/AKLEECHZONE")]
             ]
         )
     )
