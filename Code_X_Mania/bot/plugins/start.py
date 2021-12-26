@@ -17,7 +17,7 @@ from pyrogram.types import ReplyKeyboardMarkup
 buttonz=ReplyKeyboardMarkup(
             [
                 ["start⚡️","help📚","login🔑","dc"],
-                ["follow❤️","ping📡","status📊","maintainers😎"]
+                ["ping📡","status📊","maintainers😎"]
                         
             ],
             resize_keyboard=True
@@ -35,12 +35,12 @@ async def follow_user(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="I am Coded By [Adarsh Goel](https://github.com/code-x-mania)",
+                    text="I am Coded By [Adhil AK](https://t.me/ak_nh4)",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Developer💻", url=f"https://t.me/adarsh_goel")
+                                InlineKeyboardButton("Developer💻", url=f"https://t.me/ak_nh4")
                             ]
                         ]
                     ),
@@ -48,19 +48,19 @@ async def follow_user(b,m):
                     disable_web_page_preview=True)
             
          
-@StreamBot.on_message(filters.regex("follow❤️"))
+@StreamBot.on_message(filters.regex("channel🍿"))
 async def follow_user(b,m):
     try:
        await b.send_message(chat_id=m.chat.id,text="HELLO",quote=True)
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="<B>HERE'S THE FOLLOW LINK</B>",
+                    text="<B>HERE'S THE CHANNEL LINK</B>",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("FOLLOW ME", url=f"https://GITHUB.COM/CODE-X-MANIA")
+                                InlineKeyboardButton("JOIN🍿", url=f"https://t.me/MOVIEFINATICSS")
                             ]
                         ]
                     ),
@@ -91,7 +91,7 @@ async def start(b, m):
             except UserNotParticipant:
                  await StreamBot.send_photo(
                     chat_id=m.chat.id,
-                    photo="https://i.ibb.co/NKXgXD4/vlmnwosn-0.png",
+                    photo="https://i.ibb.co/C9v9n1s/20211226-200127.jpg",
                     caption="<i>𝙹𝙾𝙸𝙽 CHANNEL 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴🔐</i>",
                     reply_markup=InlineKeyboardMarkup(
                         [
@@ -106,16 +106,16 @@ async def start(b, m):
             except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="<i>𝓢𝓸𝓶𝓮𝓽𝓱𝓲𝓷𝓰 𝔀𝓮𝓷𝓽 𝔀𝓻𝓸𝓷𝓰</i> <b> <a href='http://t.me/codexmaniabot'>CLICK HERE FOR SUPPORT </a></b>",
+                    text="<i>𝓢𝓸𝓶𝓮𝓽𝓱𝓲𝓷𝓰 𝔀𝓮𝓷𝓽 𝔀𝓻𝓸𝓷𝓰</i> <b> <a href='http://t.me/ak_nh4'>CLICK HERE FOR SUPPORT </a></b>",
                     parse_mode="HTML",
                     disable_web_page_preview=True)
                 return
         await StreamBot.send_photo(
             chat_id=m.chat.id,
-            photo ="https://user-images.githubusercontent.com/88939380/137127129-a86fc939-2931-4c66-b6f6-b57711a9eab7.png",
+            photo ="https://i.ibb.co/qdrKPBZ/20211226-202902.png",
             caption ="""Hi !
 I am Telegram File to Link Generator Bot with Channel support.
-Send me any file and get a direct download link and streamable link.!""",
+Send me any file and get a direct highspeed download link and streamable link.!""",
             parse_mode="html",
             reply_markup=buttonz)
                                                                                        
@@ -136,7 +136,7 @@ Send me any file and get a direct download link and streamable link.!""",
             except UserNotParticipant:
                 await StreamBot.send_photo(
                     chat_id=m.chat.id,
-                    photo="https://i.ibb.co/ys3Tgpk/mtzijuhd-0.png",
+                    photo="https://i.ibb.co/qdrKPBZ/20211226-202902.png",
                     caption="**Pʟᴇᴀsᴇ Jᴏɪɴ  Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴛʜɪs Bᴏᴛ**!\n\n**Dᴜᴇ ᴛᴏ Oᴠᴇʀʟᴏᴀᴅ, Oɴʟʏ Cʜᴀɴɴᴇʟ Sᴜʙsᴄʀɪʙᴇʀs ᴄᴀɴ ᴜsᴇ ᴛʜᴇ Bᴏᴛ**!",
                     reply_markup=InlineKeyboardMarkup(
                         [
@@ -155,7 +155,7 @@ Send me any file and get a direct download link and streamable link.!""",
             except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="**Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ** [ADARSH GOEL](https://t.me/codexmaniabot)",
+                    text="**Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ** [ADHIL AK](https://t.me/ak_nh4)",
                     parse_mode="markdown",
                     disable_web_page_preview=True)
                 return
@@ -238,7 +238,7 @@ async def help_handler(bot, message):
         except UserNotParticipant:
             await StreamBot.send_photo(
                 chat_id=message.chat.id,
-                photo="https://i.ibb.co/ys3Tgpk/mtzijuhd-0.png",
+                photo="https://i.ibb.co/qdrKPBZ/20211226-202902.png",
                 Caption="**𝙹𝙾𝙸𝙽 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿 𝚃𝙾 𝚄𝚂𝙴 ᴛʜɪs Bᴏᴛ!**\n\n__Dᴜᴇ ᴛᴏ Oᴠᴇʀʟᴏᴀᴅ, Oɴʟʏ Cʜᴀɴɴᴇʟ Sᴜʙsᴄʀɪʙᴇʀs ᴄᴀɴ ᴜsᴇ ᴛʜᴇ Bᴏᴛ!__",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -253,19 +253,19 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ ADARSH GOEL](https://t.me/adarsh_status_bot).",
+                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ ADHIL AK](https://t.me/ak_nh4).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
     await message.reply_text(
-        text="""<b> Send me any file or video i will give you streamable link and download link.</b>\n
-<b> I also support Channels, add me to you Channel and send any media files and see miracle✨ also send /list to know all commands""",
+        text="""<b> Send me any file or video i will give you streamable link and highspeed direct download link.</b>\n
+<b> I also support Channels, add me to you Channel and send any media files and see miracle✨""",
         parse_mode="HTML",
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("💁‍♂️ DEV", url="https://t.me/codexmania")],
-                [InlineKeyboardButton("💥 FOLLOW", url="https://GitHub.com/code-x-mania")]
+                [InlineKeyboardButton("💁‍♂️ DEV", url="https://t.me/ak_nh4")],
+                [InlineKeyboardButton("💥 LEECH Grp", url="https://t.me/AKLEECHZONE")]
             ]
         )
     )
