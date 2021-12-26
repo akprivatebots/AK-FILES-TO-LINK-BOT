@@ -22,7 +22,7 @@ pass_db = Database(Var.DATABASE_URL, "jv_passwords")
 async def login_handler(c: Client, m: Message):
     try:
         try:
-            jv = await m.reply_text("Now send me password.\n\n If You don't know check the MY_PASS Variable in heroku \n\n(You can use /cancel command to cancel the process)")
+            jv = await m.reply_text("Now send me the password.\n\n If You don't know, request it from @ak_nh4 \n\n(You can use /cancel command to cancel the process)")
             _text = await c.listen(m.chat.id, filters=filters.text, timeout=90)
             if _text.text:
                 textp = _text.text
