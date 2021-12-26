@@ -45,7 +45,7 @@ Either you could locally host or deploy on [Heroku](https://heroku.com)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy/)
 
-<p><a href="https://heroku.com/deploy?template=https://github.com/akprivatebots/Filestreambot-pro"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
+<p><a href="https://heroku.com/deploy?template=https://github.com/akprivatebots/AK-FILES-TO-LINK-BOT"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
 
 <br>
 
